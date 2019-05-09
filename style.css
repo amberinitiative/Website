@@ -1,0 +1,128 @@
+body{
+	margin:0;
+}
+canvas{
+	background: white;
+	width: 100vw;
+	height: 100vh;
+}
+
+h1{
+	font-family: Roboto;
+	opacity: .86;
+	color: #4AEDD2;
+}
+.mission-statement-link {
+	display: block;
+	position: absolute;
+	top: 60%;
+	color: #e6e3e3;
+	font-size: 36px;
+	text-decoration: none;
+	background: none;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: Roboto;
+	opacity: .86;
+
+}
+
+.gif {
+	margin: 0 auto;
+}
+
+.mission-statement-link-2 {
+	display: block;
+	position: absolute;
+	top: 65%;
+	color: #e6e3e3;
+	font-size: 36px;
+	text-decoration: none;
+	background: none;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: Roboto;
+	opacity: .86;
+
+}
+
+.mission-statement-link-accent {
+	display: block;
+	position: absolute;
+	top: 60%;
+	color: #02c8e2;
+	font-size: 36px;
+	text-decoration: none;
+	background: none;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: Roboto;
+	opacity: .86;
+
+}
+.project-link{
+	display: block;
+	color: #e6e3e3;
+	font-size: 36px;
+	font-family: Roboto;
+	opacity: .99;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.project-container{
+	height: 100px;
+
+}
+
+.project-description{
+	display: block;
+	position: absolute;
+	top: 70%;
+	color: gray;
+	font-size: 20px;
+	text-decoration: none;
+	background: none;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: Roboto;
+	opacity: .86;
+}
+
+
+.typewriter-container {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .typewriter {
+	position: absolute;
+	  top: 55%;
+  }
+  
+  .typewriter-contents {
+	color: black;
+	font-family: roboto;
+	font-size: 16px;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+	  typing 3.5s steps(30, end),
+	  blink-caret .5s step-end infinite;
+  }
+	
+	/* The typing effect */
+	@keyframes typing {
+	  from { width: 0 }
+	  to { width: 100% }
+	}
+	
+	/* The typewriter cursor effect */
+	@keyframes blink-caret {
+	  from, to { border-color: transparent }
+	  50% { border-color: orange }
+	}
