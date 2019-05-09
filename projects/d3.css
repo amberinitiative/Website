@@ -1,0 +1,70 @@
+#body {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 10%;
+  position: center;
+  transform: translate(20%);
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+pre {
+  font-size: 44px;
+}
+
+line {
+  stroke: #0E0;
+  stroke-width: 1px;
+}
+
+.string, .regexp {
+  color: #f39;
+}
+
+.keyword {
+  color: #00c;
+}
+
+.comment {
+  color: rgb(0, 0, 0);
+  font-style: oblique;
+}
+
+.number {
+  color: #369;
+}
+
+.class, .special {
+  color: #1181B8;
+}
+
+a:link, a:visited {
+  color: rgb(5, 180, 172);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 141, 141);
+}
+
+
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: rgb(6, 226, 255);
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 18px;
+}
+
+path.link {
+  fill: none;
+  stroke: rgb(54, 54, 54);
+  stroke-width: .25px;
+}
